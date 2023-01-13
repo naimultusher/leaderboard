@@ -98,3 +98,64 @@ hr {
     color: #562EFF;
     font-size: 16px;
 }
+
+/* courses styles */
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+
+.course {
+    background-color: #ffffff;
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+    border-radius: 15px;
+    padding: 13px;
+    width: 253px;
+}
+
+.course-title {
+    font-size: 21px;
+    color: #1E1E1E;
+}
+
+.course-banner img {
+    width: 255px;
+    height: 141px;
+}
+
+.course-author a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14.6913px;
+    color: #ED6B4F;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating-text {
+    font-weight: 400;
+    font-size: 14px;
+    color: #AEAEAE;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+.class-duration {
+    background: #FFE4E8;
+    border-radius: 14px;
+    color: #FF4A60;
+    font-size: 14px;
+    padding: 5px;
+}
